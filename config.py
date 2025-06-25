@@ -35,15 +35,15 @@ API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or b
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/shizukaofficial/Aviax_shizuka_music",
+    "https://github.com/shizukaofficial/sanatanimusic-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("🥵ʟɪᴠᴇ sᴇꭙ🥵", "https://t.me/+SZIdyttGRp9mZTFl")
-SUPPORT_GROUP = getenv("🥵ᴠɪꝛᴧʟ ᴠɪᴅᴇᴏ's sᴇꭙ🥵", "https://t.me/+SZIdyttGRp9mZTFl")
+SUPPORT_CHANNEL = getenv("ᴄʜᴧɴɴᴇʟ", "https://t.me/+SZIdyttGRp9mZTFl")
+SUPPORT_GROUP = getenv("ɢꝛᴏᴜᴘ", "https://t.me/+SZIdyttGRp9mZTFl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,21 +84,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/e1902ec72ac5b0f71cb8c-bc7a7f6a3c5fc05863.jpg"
+    "START_IMG_URL", "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/e1902ec72ac5b0f71cb8c-bc7a7f6a3c5fc05863.jpg"
+    "PING_IMG_URL", "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/e1902ec72ac5b0f71cb8c-bc7a7f6a3c5fc05863.jpg"
-STATS_IMG_URL = "https://graph.org/file/e1902ec72ac5b0f71cb8c-bc7a7f6a3c5fc05863.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/c532ea0e408d52b2648ff-8f20a767f1ca081619.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/c532ea0e408d52b2648ff-8f20a767f1ca081619.jpg"
-STREAM_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/345ca8a8f878ae82e0c6c-6bf0c711a588e2d303.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+STATS_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+STREAM_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/939d00da5dc045a827a26-8fd4e4105273659088.jpg"
 
 
 def time_to_seconds(time):
